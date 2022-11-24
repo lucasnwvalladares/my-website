@@ -1,0 +1,123 @@
+:root {
+  --cvColor: #00ab44;
+  --textGray: #666666;
+}
+
+body {
+  font-family: 'Sono', sans-serif;
+  background-color: lightgray;
+  margin: 0;
+}
+
+#cv {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 900px;
+  padding: 30px;
+  background-color: #f0f0f0;
+  border-radius: 2px;
+  box-shadow: 4px 4px 5px var(--textGray);
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#cv h2, h3 {
+  color: var(--cvColor);
+}
+
+#cv h4, h5 {
+  font-weight: normal;
+}
+
+#cv h5 {
+  color: var(--textGray);
+}
+
+#cv hr {
+  border: 1px solid var(--cvColor);
+  width: 30%;
+}
+
+#cv hr:first-of-type {
+  border: 2px solid var(--cvColor);
+  width: 100%;
+}
+
+#cv hr:nth-of-type(2) {
+  border: 2px solid var(--cvColor);
+  width: 100%;
+}
+
+#cv a {
+  color: var(--textGray);
+  text-decoration: none;
+}
+
+.textGray {
+  color: var(--textGray);
+}
+
+.profile-info {
+  display: flex;
+  flex-orientation: row;
+  margin: 20px;
+  margin-left: 0;
+}
+
+#profile-img {
+  --size: 180px;
+  heigth: var(--size);
+  width: var(--size);
+  border-radius: 50%;
+}
+
+#profile-details {
+  margin-left: 30px;
+}
+
+#download-btn {
+  display: flex;
+  justify-content: center;
+}
+
+#cv button:hover a {
+  color: white;
+}
+
+.container-fluid {
+  background-color: #38BA6C;
+}
+
+.navbar a {
+  color: white;
+}
+
+.nav-title a {
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 5%;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 10px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.grow {
+  flex-grow: 1;
+}
+
+.nav-title {
+  margin-left: 10px;
+}
+
+.container {
+  margin-top: 10px;
+}
+
+#home-content {
+  min-heigth: 200px;
+}
