@@ -98,6 +98,7 @@ export default {
   },
 
   router: {
+    base: '/my-website/',
     //middleware: ['auth'],
   },
 
