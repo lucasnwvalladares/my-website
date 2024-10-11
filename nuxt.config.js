@@ -107,4 +107,6 @@ export default {
   //     ...
   //   }
   // }
+
+  target: 'static'
 }
