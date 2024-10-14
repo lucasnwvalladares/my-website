@@ -1,7 +1,10 @@
 <template>
     <v-app>
         <Header />
-        <nuxt />
+        <v-main>
+            <nuxt />
+        </v-main>
+        <Sitemap />
         <Footer />
     </v-app>
 </template>
@@ -9,11 +12,13 @@
 <script>
 import Header from '~/components/Header.vue';
 import Footer from '~/components/Footer.vue';
+import Sitemap from '~/components/Sitemap.vue';
 
 export default {
     components: {
         Header,
-        Footer
+        Footer,
+        Sitemap
     }
 };
 </script>

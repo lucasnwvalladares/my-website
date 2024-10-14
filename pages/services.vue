@@ -300,9 +300,9 @@
             </section>
 
             <!-- Call to Action Section -->
-            <section class="cta mb-6">
+            <section class="cta">
                 <h2>Ready to take your business to the next level?</h2>
-                <nuxt-link to="/contact" class="btn-primary">Get in Touch Today!</nuxt-link>
+                <nuxt-link to="/contact-us" class="btn-primary">Get in Touch Today!</nuxt-link>
             </section>
         </div>
     </section>

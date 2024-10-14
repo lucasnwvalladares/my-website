@@ -1,11 +1,7 @@
 <template>
-    <footer class="footer fixed-footer">
+    <footer class="footer">
         <div class="footer-content">
             <p>&copy; {{ currentYear }} Valla. All rights reserved.</p>
-            <div class="social-links">
-                <!-- Add your social media links here -->
-                <a href="https://www.linkedin.com/company/valla-tecnologies/" target="_blank">LinkedIn</a>
-            </div>
         </div>
     </footer>
 </template>
@@ -18,33 +14,29 @@ const currentYear = new Date().getFullYear()
 .footer {
     background-color: $primary-color;
     color: #fff;
-    padding: 20px 0;
-    /* Remove margin-top to prevent spacing issues */
-}
-
-.fixed-footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000; /* Ensure the footer stays on top */
+    padding: 10px 0; // Reduced padding
+    text-align: center;
 }
 
 .footer-content {
     width: 80%;
+    max-width: 1200px;
     margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
+    p {
+        font-size: 0.9rem; // Slightly smaller font size
+        margin: 0; // Remove default paragraph margin
+    }
 }
 
-.social-links a {
-    color: #fff;
-    margin-left: 15px;
-    text-decoration: none;
-}
+// Add responsive adjustments if needed
+@media (max-width: 768px) {
+    .footer {
+        padding: 8px 0; // Even smaller padding for mobile
+    }
 
-.social-links a:hover {
-    text-decoration: underline;
+    .footer-content p {
+        font-size: 0.8rem; // Smaller font size for mobile
+    }
 }
 </style>

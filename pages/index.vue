@@ -10,7 +10,7 @@
                     technology to help you thrive in a competitive market. Explore our services and see how we
                     can transform your business.
                 </p>
-                <nuxt-link to="/contact" class="btn-primary">Get Started</nuxt-link>
+                <nuxt-link to="/contact-us" class="btn-primary">Get Started</nuxt-link>
             </div>
         </section>
 
@@ -47,13 +47,13 @@
                     <strong>Commitment to Excellence</strong> in every project
                 </li>
             </ul>
-            <nuxt-link to="/contact" class="btn-secondary">Contact Us</nuxt-link>
+            <nuxt-link to="/contact-us" class="btn-secondary">Contact Us</nuxt-link>
         </section>
 
         <!-- Call to Action Section -->
-        <section class="cta mb-6">
+        <section class="cta">
             <h2>Ready to take your business to the next level?</h2>
-            <nuxt-link to="/contact" class="btn-primary">Get in Touch Today!</nuxt-link>
+            <nuxt-link to="/contact-us" class="btn-primary">Get in Touch Today!</nuxt-link>
         </section>
     </section>
 </template>
