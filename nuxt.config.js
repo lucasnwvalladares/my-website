@@ -3,19 +3,18 @@ import colors from 'vuetify/es5/util/colors'
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - valla',
-    title: 'valla',
-    htmlAttrs: {
-      lang: 'en'
-    },
+    title: 'Valla - Innovative Software Solutions',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' }
+      { hid: 'description', name: 'description', content: 'Valla provides cutting-edge technology solutions to drive business growth.' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/my-website/favicon.ico' },
+      { rel: 'apple-touch-icon', sizes: '180x180', href: '/my-website/apple-touch-icon.png' },
+      { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/my-website/favicon-32x32.png' },
+      { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/my-website/favicon-16x16.png' },
+      { rel: 'manifest', href: '/my-website/site.webmanifest' }
     ]
   },
 
